@@ -1,0 +1,220 @@
+html {
+	height: 100%;
+}
+body {
+	min-height: 100%;
+	background: url('../img/foto.jpg') no-repeat center center fixed;
+	background-color: #07508e;
+	background-size: cover;
+	font: 14px 'Helvetica Neue', sans-serif;
+	overflow: auto;
+}
+
+
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #07508e; 
+	padding: 0 20px;
+}
+header nav {
+	display: flex;
+  	flex-flow: row wrap;
+  	justify-content: flex-end;
+  	align-items: center;
+}
+.menu {
+	display: flex;
+  	flex-flow: row wrap;
+  	justify-content: flex-end;
+  	align-items: center;
+  	list-style-type: none
+}
+.menu a {
+	display: block;
+	padding: 10px;
+	border: 1px solid transparent;
+	text-decoration: none;
+	color: #60b5ed;
+}
+.left-menu a {
+	border: 1px solid transparent;
+	color: white;
+}
+.flag a {
+	border-left: 1px solid #52a0da;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: inherit;
+	padding: 4.5px 5px;
+}
+.flag a>i {
+	padding: 0 10px;
+	font-size: 27px;
+}
+.flag span {
+	padding: 5px 5px;
+ 	font-size: 14px;
+}
+.in-or-reg {
+	color: white;
+	padding: 10px 10px;
+	background: linear-gradient(to bottom, #50afdc, #2e7ac4);
+	border: 1px solid #4d9ed8;
+}
+.in-or-reg a {
+	display: inline;
+	color: white;
+	text-decoration: none;
+}
+.menu a:hover {
+	background: #4eabda;
+	color: #ffffff;
+}
+.in-or-reg a:hover {
+	color: #ffffff;
+	background: transparent;
+	text-decoration: underline;
+}
+
+
+.wrapper {
+	height: 100vh;
+  	text-align: center;
+  	margin-top: 5%;
+}
+.wrapper:before {
+  	content: '';
+  	display: inline-block;
+  	height: 100%;
+  	vertical-align: middle;
+}
+.container {
+	display: inline-block;
+  	vertical-align: middle;
+  	width: 560px;
+}
+.first-box {
+	display: flex;
+	justify-content: center; 
+	margin-bottom: 2px; 
+	padding: 16px 0;
+	background-color: rgba(0, 0, 0, .6);
+	text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+}
+.registration {
+	display: block; 
+	padding: 4vh 0 3vh;
+	background-color: rgba(0, 0, 0, .6);
+	color: #fbffff;
+}
+.fb-button {
+	margin: 0 auto; 
+	width: 276px;
+	background: linear-gradient(to bottom, #3b5699, #2f4078);
+	border-radius: 3px;
+	border-top: 1px solid #7589bb;
+	display: inline-block;
+	text-decoration: none;
+	color: #f9feff;
+}
+.fb-button i {
+	float: left;
+	padding: 6px 12px;
+	font-size: 24px;
+	border-right: 1px solid #1f3d71; 
+	box-shadow: 1px 0 0 0 rgba(77, 102, 166, 1);
+}
+.fb-button > span {
+	display: block;
+	margin: 0 auto;
+	padding-top: 10px;
+	font-size: 16px; 	
+	border-left: 1px solid #4e63a2;
+}
+.bold {
+	font-weight: bold; 
+}
+.delimeter {
+	width: 276px;
+	margin: 15px auto 10px;
+}
+.delimeter span {
+	text-align: center;
+  	background-color: transparent;
+  	position: relative;
+  	width: 276px;
+  	font-size: 12px;
+  	color: #999999;
+}
+.delimeter span:before {
+  	display: inline-block;
+  	content: '';
+  	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%); 
+  	left: 0;
+  	width: 122px;
+  	height: 0;
+  	margin: 2px 5px 2px 0;
+  	border-top: 1px solid grey;
+  	border-bottom: 1px solid black;
+}
+.delimeter span:after {
+  	display: inline-block;
+  	content: '';
+  	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%); 
+  	right: 0;
+  	width: 122px;
+  	height: 0;
+  	margin: 2px 0 2px 5px;
+  	border-top: 1px solid grey;
+  	border-bottom: 1px solid black;
+}
+.registration form {
+	display: block;
+	margin: 10px auto;
+	width: 276px;
+}
+.registration input {
+	box-sizing: border-box;
+	border: 1px solid transparent;
+	width: inherit;
+	margin: 8px 0;
+	padding: 10px 12px;
+	background: #0f0f0f;
+	border-bottom-color: #494948;
+	color: white;
+}
+.checkbox {
+	left: 0;
+	font-size: 14px;
+	color: #cccccc;
+}
+button {
+	display: block;
+	margin: 12px auto 12px;
+}
+.registration button {
+	padding: 8px;
+	border: 1px solid #3686ca;
+	border-radius: 2px;
+	background: linear-gradient(to bottom, #4eabda, #2e7ac4);
+	color: #ecf3f9;
+}
+.afterwords {
+	font-size: 11px;
+	color: #c5c5c4;
+}
+.registration input:focus {
+	background: #1b5288;
+	border: 1px solid #1b5288; 
+	box-shadow: 0 0 15px 0 rgba(86, 143, 184, 1);
+}
