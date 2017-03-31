@@ -1,0 +1,32 @@
+table {
+    margin: 100px auto;
+    border-collapse: collapse;
+}
+
+td {
+    border: 10px solid black;
+    height: 50px;
+    width: 50px;
+}
+
+.twowidth {
+    width: 150px;
+}
+
+.red {
+    background: red;
+    height: 200px;
+    width: 200px;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.black {
+    background: black;
+}
+
+.blue {
+    background: blue;
+}
