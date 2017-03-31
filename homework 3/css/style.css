@@ -16,17 +16,16 @@ nav a {
 	text-decoration: none;
 }
 
-nav ul {
-	margin: 0;
-	padding: 0;
-}
-
-nav ul :hover,
-nav ul :active {
+nav a:hover {
     border-left: 2px solid #838383;
     border-right: 2px solid #838383;
     background: #2f2f2f;
     color: white;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
 }
 
 nav li {
@@ -38,11 +37,17 @@ nav li {
 .top-menu li {
 	display: inline-block;
     margin: 0;
-    padding: 10px 60px;
-}
+}   
 
 .top-menu a {
 	color: #ffffff;
+}
+
+.top-menu a {
+    color: #ffffff;
+    padding: 10px 60px;
+    border left: 2px solid transparent;
+    border right: 2px solid transparent;
 }
 
 img {
