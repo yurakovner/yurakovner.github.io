@@ -1,3 +1,8 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
 html {
 	height: 100%;
 }
@@ -82,7 +87,7 @@ header nav {
 
 
 .wrapper {
-	height: 100vh;
+	height: 100%;
   	text-align: center;
   	margin-top: 5%;
 }
